@@ -1,6 +1,4 @@
-# Understanding Certificate Chains: A Simple Guide 
-[![Views](https://img.shields.io/badge/dynamic/json?color=blue&label=views&query=$.views&url=https://api.countapi.xyz/hit/nicanorflavier/ssl-certificate-chain-guide/readme)](https://github.com/nicanorflavier/ssl-certificate-chain-guide)
-
+# Understanding Certificate Chains: A Simple Guide
 
 Certificate chains are a key part of internet security. But what are they, and how do they work? This guide will explain it all in simple terms to make the concept clearer.
 
