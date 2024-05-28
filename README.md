@@ -3,7 +3,9 @@
 Certificate chains are a key part of internet security. But what are they, and how do they work? This guide will explain it all in simple terms to make the concept clearer.
 
 # Table of Contents
+  - [Why This Guide?](#why-this-guide)
   - [What is a Certificate Chain?](#what-is-a-certificate-chain)
+    - [Certificate Chain Example in real-world scenario](#certificate-chain-example-in-real-world-scenario)
   - [Why Should You Understand Certificate Chains?](#why-should-you-understand-certificate-chains)
   - [Components of a Certificate Chain](#components-of-a-certificate-chain)
   - [How Certificate Chains Work](#how-certificate-chains-work)
