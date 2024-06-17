@@ -210,7 +210,7 @@ Spotted a mistake or missing info in this guide? Don't be shy! Raise an issue or
 
 You're welcome to share, clone, fork, or bookmark this content. All we ask is that you give credit where it's due :)
 
-"# Understanding Certificate Chains: A Simple Guide" by Nicanor II Flavier, used under CC BY 4.0. To view the original material, visit https://github.com/nicanorflavier/ssl-certificate-chain-guide
+"Understanding Certificate Chains: A Simple Guide" by Nicanor II Flavier, used under CC BY 4.0. To view the original material, visit https://github.com/nicanorflavier/ssl-certificate-chain-guide
 
 ## Contact
 
