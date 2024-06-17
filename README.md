@@ -30,7 +30,7 @@ Certificate chains are a key part of internet security. But what are they, and h
 ## Why This Guide?
 
 You may be thinking there are many articles out there, why I should bother with this guide?
-Firstly, this article stands out for its simplicity and clarity. It aims to demystify the concept of certificate chains by providing easy-to-understand explanations and an example. Furthermore, if you are a developer or like GitHub having it in a repository would be a good idea and quick way to get this information from your command line or via your IDE code tools like Visual Studio code for example.
+Firstly, this article stands out for its simplicity and clarity. It aims to demystify the concept of certificate chains by providing easy-to-understand explanations and an example. Furthermore, if you are a developer or like GitHub having it in a repository would be a good idea and quick way to get this information from your command line or via your IDE code tools like Visual Studio code for example. Plus, it's a document that will stay in Github and guaranteed that won't go anywhere that can be edited by you or anyone or the community to ensure it stays updated and relevant.
 
 ## What is a Certificate Chain?
 
@@ -105,6 +105,15 @@ You can check a certificate chain using tools like `openssl`. For example, you c
 ```bash
 openssl x509 -in /path/to/your/certificate.cert -text -noout
 ```
+
+You can also check an online certificate chain using `openssl`. For example, you can use the following command to check the details of a certificate from a website:
+
+```bash
+echo | openssl s_client -servername hostname -connect host:port 2>/dev/null | openssl x509 -noout -text
+```
+
+Replace `hostname` with the name of the server and `host:port` with the host and port number of the server you want to check.
+
 You can check a website's certificate chain using your web browser's developer tools or just by going to the web browser address bar pad lock icon. Here's how you can do it in Chrome using web developer tools:
 
 1. Visit the website.
@@ -192,3 +201,17 @@ This service from Microsoft Azure allows you to manage and control cryptographic
 Certificate chains are a fundamental part of internet security. They're how your browser knows it can trust a website. So the next time you see a padlock in your address bar, you'll know there's a certificate chain working behind the scenes to keep your connection secure.
 
 **Summary**: Certificate chains establish trust and secure connections on the internet.
+
+## Contributing
+
+Spotted a mistake or missing info in this guide? Don't be shy! Raise an issue or better yet, fork this repo and raise a PR. Your contributions help make this guide better for everyone.
+
+## Sharing is Caring
+
+You're welcome to share, clone, fork, or bookmark this content. All we ask is that you give credit where it's due :)
+
+"# Understanding Certificate Chains: A Simple Guide" by Nicanor II Flavier, used under CC BY 4.0. To view the original material, visit https://github.com/nicanorflavier/ssl-certificate-chain-guide
+
+## Contact
+
+If you have any questions or suggestions, feel free to reach out. You can find my contact details on my GitHub profile https://github.com/nicanorflavier
